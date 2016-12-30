@@ -18,7 +18,8 @@ set CMD=%1
 set HSIP=%2
 set HSPORT=%3
 
-set NC_BIN="C:\Program Files (x86)\nmap\ncat.exe"
+::set NC_BIN="C:\Program Files (x86)\nmap\ncat.exe"
+set NC_BIN=ncat.exe
 set BASE64_BIN=base64.exe
 
 :: default port is 9999
